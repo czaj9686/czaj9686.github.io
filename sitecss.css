@@ -1,44 +1,24 @@
 @import url("https://use.typekit.net/llo2xui.css");
 
 body{
-    background-color: black;
-    margin:0;
+    background-color: rgb(255, 255, 255);
+    margin:50px;
 }
 
 .name{
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
-    color:white;
+    color:rgb(22, 22, 22);
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     font-size: 100px;
     line-height: 75px;
     word-spacing: -10px;
     letter-spacing: -6px;
 }
 
-.nameSubtitle{
-    color:white;
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 60px;
-    line-height: 75px;
-    word-spacing: -5px;
-    letter-spacing: -6px;
-}
-
-.footer{
-    position:absolute;
-    width:100%;
-    height:60px;
-    bottom:0px;
-}
-
-#wrapper{
-    width:100%;
-    margin:0 auto;
+.col-sm a{
+    text-align: center;
+    margin: auto;
 }
