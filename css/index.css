@@ -1,15 +1,19 @@
 @import url("https://use.typekit.net/llo2xui.css");
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(19, 19, 20);
     margin:50px;
 }
 
+h1, h2, h3, h4, h5, p, a{
+    color:rgb(237, 241, 217);
+}
+
 .name{
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
-    color:rgb(22, 22, 22);
+    color:rgb(237, 241, 217);
     text-transform: uppercase;
     text-align: center;
     font-size: 100px;
@@ -21,4 +25,8 @@ body{
 .col-sm a{
     text-align: center;
     margin: auto;
+}
+
+.imagerow{
+    filter: grayscale(100%);
 }
